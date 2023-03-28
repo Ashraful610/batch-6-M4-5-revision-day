@@ -14,8 +14,6 @@ body{
 }
 .half-div{
     width: 50%;
-}
-.content-div{
     padding: 50px;
 }
 .half-div h1{
@@ -24,6 +22,12 @@ body{
 }
 .half-div h1 span{
     color: rgb(42, 178, 231);
+}
+.half-div p{
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 27px;
+    padding-right: 70px;
 }
 .order-btn{
     border: none;
@@ -36,11 +40,25 @@ body{
     margin-top: 20px;
 }
 .img-div{
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.half-div img{
+.boy-img{
     width: 80%;
+    height: 80%;
+}
+/* ---------------- about section -------------- */
+.about-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.female-img{
+    width: 50%;
     height: 80%;
 }
