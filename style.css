@@ -94,3 +94,22 @@ body{
 .food-div img{
     width: 100%;
 }
+/* --------------------------- follwer div --------------- */
+.follwer-div{
+    width: 80%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    box-shadow: 10px 10px 30px silver;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.follwer-div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 33.33%;
+}
+.follwer-div div h1{
+    font-size: 40px;
+}
