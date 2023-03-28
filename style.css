@@ -113,3 +113,19 @@ body{
 .follwer-div div h1{
     font-size: 40px;
 }
+/* ---------------- footer section ------------ */
+footer{
+    background-color: rgb(20, 20, 20);
+    height: 200px;
+    text-align: center;
+}
+footer h2{
+    color:rgb(144, 154, 163);
+    padding:20px;
+}
+footer span{
+    color: rgb(30, 169, 224);
+}
+footer p{
+    color:rgb(144, 154, 163)
+}
